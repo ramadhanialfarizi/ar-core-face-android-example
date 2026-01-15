@@ -233,7 +233,7 @@ public class AugmentedFacesActivity extends AppCompatActivity implements GLSurfa
       backgroundRenderer.createOnGlThread(/*context=*/ this);
       augmentedFaceRenderer.createOnGlThread(this, "models/freckles.png");
       augmentedFaceRenderer.setMaterialProperties(0.0f, 1.0f, 0.1f, 6.0f);
-      noseObject.createOnGlThread(/*context=*/ this, "models/nose.obj", "models/nose_fur.png");
+      noseObject.createOnGlThread(/*context=*/ this, "models/glasses_eye.obj", "models/glasses.png");
       noseObject.setMaterialProperties(0.0f, 1.0f, 0.1f, 6.0f);
       noseObject.setBlendMode(ObjectRenderer.BlendMode.AlphaBlending);
       rightEarObject.createOnGlThread(this, "models/forehead_right.obj", "models/ear_fur.png");
